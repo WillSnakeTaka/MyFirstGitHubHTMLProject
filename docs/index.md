@@ -1,3 +1,0 @@
-My name is William Takahashi 
-My favourite hobbies are digital drawings, piano, electone, classical music, occult, robotic stuffs, Steppe history and Steppe politic ... 
-
