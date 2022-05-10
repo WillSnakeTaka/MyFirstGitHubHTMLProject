@@ -1,4 +1,4 @@
-# Takahashi_William_ttp_static
+# Taka_William_ttp_static
 a short html introduction about myself
 
 The URL is 
