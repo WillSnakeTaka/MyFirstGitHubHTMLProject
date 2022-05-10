@@ -3,4 +3,4 @@ a short html introduction about myself
 
 The URL is 
 
-https://willsnaketaka.github.io/Takahashi_William_ttp_static/
+https://github.com/WillSnakeTaka/Taka_Will_ttp_static.git
