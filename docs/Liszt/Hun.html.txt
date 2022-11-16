@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+        <head>
+          <style>
+body {
+  background-image: url('/Liszt/Pic/Hun.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+<p style="color:lightgreen;">Current Date and Time is:    <span id='date-time'></span>.</p>
+<script>
+var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+
+</script>
+        </head>
+         
+        <body>
+    
+<p><a style="color:black;"href="/Liszt/Liszt.html">Liszt Intro </a></p> 
+<p><a style="color:black;"href="../index.html">Home </a></p>   
+<audio controls>
+  <source src="/Liszt/Mus/Hun.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
