@@ -3,7 +3,7 @@ a short html introduction about myself
 
 Hey, curious people: 
 
-This is my first GitHub HTML page. Originally, it was intended for the TTP and CTP applications, which I did not succeed with during the winter of 2021, then failed again during 2022~2023, and during 2023~2024 I was on the borderline of being accepted into the CTP program. That was my first year at BK College after a six-year delay in graduating from community colleges and also failed at other senior colleges within 2 years each. The year of 2021 was particularly tough and enigmatic, and even if I had been accepted into either program, I would have struggled to finish.
+This is my first GitHub HTML page. Originally, it was intended for the TTP and CTP applications, which I did not succeed with during the winter of 2021, then failed again during 2022-2023, and during 2023-2024 I was on the borderline of being accepted into the CTP program. That was my first year at BK College after a six-year delay in graduating from community colleges and also failed at other senior colleges within 2 years each. The year of 2021 was particularly tough and enigmatic, and even if I had been accepted into either program, I would have struggled to finish.
 
 Later, I repurposed this site for Professor Lewis' music history class presentation, where I provided a radical interpretation of Franz Liszt. Additionally, it was used for another music history LARPing class, where I Larp as a "musicologist" double agent who infiltrated the Nádasdy family to meddle in the internal affairs of the Esterházy family.
 
