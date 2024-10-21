@@ -1,83 +1,92 @@
 <!DOCTYPE HTML>
-<html>
-    <head>
-        <style>
-            body {
-                background-image: url('professional_background.jpeg');
-                background-repeat: no-repeat;
-                background-attachment: fixed; 
-                background-size: cover;
-                font-family: Arial, sans-serif;
-                color: #333;
-            }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WilliamBuryat U Takahashi's Professional Page</title>
+    <style>
+        body {
+            background-image: url('professional_background.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
 
-            header, footer {
-                text-align: center;
-                background-color: rgba(0, 0, 0, 0.7);
-                padding: 20px;
-                color: #fff;
-            }
+        header, footer {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            color: #fff;
+        }
 
-            main {
-                margin: 50px;
-                padding: 20px;
-                background-color: rgba(255, 255, 255, 0.8);
-                border-radius: 10px;
-            }
+        main {
+            margin: 50px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
 
-            h1, h2 {
-                color: #2C3E50;
-            }
+        h1, h2 {
+            color: #2980B9;
+        }
 
-            p {
-                color: #34495E;
-            }
+        p {
+            color: #555;
+            line-height: 1.6; /* Improved readability */
+        }
 
-            a {
-                color: #3498DB;
-                text-decoration: none;
-            }
+        a {
+            color: #3498DB;
+            text-decoration: none;
+        }
 
-            a:hover {
-                text-decoration: underline;
-            }
+        a:hover {
+            text-decoration: underline;
+            color: #2980B9; /* Slightly darker on hover for effect */
+        }
 
-            .date-time {
-                color: #16A085;
-                font-size: 14px;
-                text-align: right;
-            }
-        </style>
-    </head>
+        .date-time {
+            color: #16A085;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        footer p {
+            color: #ccc; /* Lighter gray for footer text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="professional_logo.png" alt="Logo" style="width: 50px; vertical-align: middle;"> WilliamBuryat U Takahashi</h1>
+    </header>
+
+    <div class="date-time">
+        Current Date and Time is: <span id='date-time'></span>.
+    </div>
+    <script>
+        var dt = new Date();
+        document.getElementById('date-time').innerHTML = dt.toLocaleString();
+    </script>
     
-    <body>
-        <header>
-            <h1><img src="professional_logo.png" alt="Logo" style="width: 50px; vertical-align: middle;"> WilliamBuryat U Takahashi</h1>
-        </header>
-
-        <div class="date-time">
-            Current Date and Time is: <span id='date-time'></span>.
-        </div>
-        <script>
-            var dt = new Date();
-            document.getElementById('date-time').innerHTML = dt;
-        </script>
+    <main>
+        <h2>Welcome to My Professional Page</h2>
+        <p>Hello! My name is WilliamBuryat U Takahashi, a passionate data science student with a diverse background and a unique blend of interests. I am currently pursuing my journey in data science, eager to explore the potentials of data-driven decision-making and machine learning.</p>
         
-        <main>
-            <h2>Welcome to My Professional Page</h2>
-            <p>Hello! My name is WilliamBuryat U Takahashi, a passionate data science student with a diverse background and a unique blend of interests. I am currently pursuing my journey in data science, eager to explore the potentials of data-driven decision-making and machine learning.</p>
-            
-            <p>Beyond my academic pursuits, I am a digital artist and a lover of classical music. My hobbies include playing the piano, music compositions, and diving deep into the rich histories and politics of the Steppe regions with a bit of occult.</p>
+        <p>Beyond my academic pursuits, I am a digital artist and a lover of classical music. My hobbies include playing the piano, music compositions, and diving deep into the rich histories and politics of the Steppe regions with a bit of occult.</p>
 
-            <p>Combining my technical skills with my creative passions, I aim to bring a fresh perspective to the field of data science. I believe in the power of data to tell compelling stories and drive meaningful change.</p>
-        </main>
-        
-        <footer>
-            <p>Feel free to explore my <a href="portfolio.html">portfolio</a> and learn more about my projects and interests.(I will put this later)</p>
-            <p>Contact me at: <i>MyImaginaryEmail@homework.com</i></p>
-            <p>My GitHub: <i>https://github.com/WillSnakeTaka</i></p>
-            <p><a style="color:silver;"href="VNad.html">Presentation Vilmos Nádasdy(During Music History Class 2022) </a></p>
-            <p><a style="color:silver;"href="Liszt/Liszt.html">Liszt All Conquering(Music History Class Larping 2022) </a></p>
-        </footer>
-    </body>
+        <p>Combining my technical skills with my creative passions, I aim to bring a fresh perspective to the field of data science. I believe in the power of data to tell compelling stories and drive meaningful change.</p>
+    </main>
+    
+    <footer>
+        <p>Feel free to explore my <a href="portfolio.html">portfolio</a> and learn more about my projects and interests.(I will put this later)</p>
+        <p>Contact me at: <i>MyImaginaryEmail@homework.com</i></p>
+        <p>My GitHub: <i>https://github.com/WillSnakeTaka</i></p>
+        <p><a href="VNad.html">Presentation Vilmos Nádasdy (During Music History Class 2022)</a></p>
+        <p><a href="Liszt/Liszt.html">Liszt All Conquering (Music History Class Larping 2022)</a></p>
+    </footer>
+</body>
 </html>
