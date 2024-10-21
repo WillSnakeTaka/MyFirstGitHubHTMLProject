@@ -1,28 +1,29 @@
 <!DOCTYPE HTML>
 <html>
-        <head>
-          <style>
-body {
-  background-image: url('Pic/Intro.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-}
-</style>
-<p style="color:lightgreen;">Current Date and Time is:    <span id='date-time'></span>.</p>
-<script>
-var dt = new Date();
-document.getElementById('date-time').innerHTML=dt;
+<head>
+    <style>
+        body {
+            background-image: url('Pic/Intro.jpeg'); /* Ensure this path is correct */
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: cover; /* Changed to cover for better scaling */
+            color: lightgreen; /* Added this for consistent text color */
+        }
+    </style>
+    <script>
+        var dt = new Date();
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById('date-time').innerHTML = dt;
+        });
+    </script>
+</head>
 
-</script>
-        </head>
-         
-        <body>
-        
-  <p><a style="color:black;"href="/Liszt/Pole.html"> Central EU </a></p>
-<p><a style="color:black;"href="/Liszt/Hun.html"> Hunok es Magyar </a></p>
-<p><a style="color:black;"href="/Liszt/Finn.html"> Finno-Ugric </a></p>
-          <p><a style="color:black;"href="../index.html">Home </a></p>   
+<body>
+    <p>Current Date and Time is: <span id='date-time'></span>.</p>
 
+    <p><a style="color:black;" href="Pole.html">Central EU</a></p>
+    <p><a style="color:black;" href="Hun.html">Hunok es Magyar</a></p>
+    <p><a style="color:black;" href="Finn.html">Finno-Ugric</a></p>
+    <p><a style="color:black;" href="../index.html">Home</a></p>
 </body>
 </html>
